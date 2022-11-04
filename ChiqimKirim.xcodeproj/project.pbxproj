@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5910440A29138F28008E57B4 /* FilteredDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910440929138F28008E57B4 /* FilteredDetailView.swift */; };
+		5910440C291395DD008E57B4 /* ExpenseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910440B291395DD008E57B4 /* ExpenseCard.swift */; };
+		5954934D2913482A0030C3B3 /* ChiqimKirimApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954934C2913482A0030C3B3 /* ChiqimKirimApp.swift */; };
+		5954934F2913482A0030C3B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954934E2913482A0030C3B3 /* ContentView.swift */; };
+		595493512913482B0030C3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595493502913482B0030C3B3 /* Assets.xcassets */; };
+		595493542913482B0030C3B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 595493532913482B0030C3B3 /* Preview Assets.xcassets */; };
+		5954935D291354910030C3B3 /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954935C291354910030C3B3 /* FontView.swift */; };
+		59549360291354AD0030C3B3 /* ALKATIP Kitab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5954935E291354AD0030C3B3 /* ALKATIP Kitab.ttf */; };
+		59549361291354AD0030C3B3 /* ALKATIP Kitab Tom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5954935F291354AD0030C3B3 /* ALKATIP Kitab Tom.ttf */; };
+		59549365291356910030C3B3 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59549364291356910030C3B3 /* Home.swift */; };
+		59549368291356F00030C3B3 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59549367291356F00030C3B3 /* Expense.swift */; };
+		5954936A29136B420030C3B3 /* ExpenseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954936929136B420030C3B3 /* ExpenseViewModel.swift */; };
+		5954936C29137AE80030C3B3 /* TransactionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5954936B29137AE80030C3B3 /* TransactionCardView.swift */; };
+		59A9A4762914A7A000A4AFDF /* NewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A9A4752914A7A000A4AFDF /* NewExpense.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5910440929138F28008E57B4 /* FilteredDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredDetailView.swift; sourceTree = "<group>"; };
+		5910440B291395DD008E57B4 /* ExpenseCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCard.swift; sourceTree = "<group>"; };
+		595493492913482A0030C3B3 /* ChiqimKirim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChiqimKirim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5954934C2913482A0030C3B3 /* ChiqimKirimApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiqimKirimApp.swift; sourceTree = "<group>"; };
+		5954934E2913482A0030C3B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		595493502913482B0030C3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		595493532913482B0030C3B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5954935C291354910030C3B3 /* FontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
+		5954935E291354AD0030C3B3 /* ALKATIP Kitab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ALKATIP Kitab.ttf"; sourceTree = "<group>"; };
+		5954935F291354AD0030C3B3 /* ALKATIP Kitab Tom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ALKATIP Kitab Tom.ttf"; sourceTree = "<group>"; };
+		59549362291354BE0030C3B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		59549364291356910030C3B3 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		59549367291356F00030C3B3 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		5954936929136B420030C3B3 /* ExpenseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewModel.swift; sourceTree = "<group>"; };
+		5954936B29137AE80030C3B3 /* TransactionCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCardView.swift; sourceTree = "<group>"; };
+		59A9A4752914A7A000A4AFDF /* NewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpense.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		595493462913482A0030C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595493402913482A0030C3B3 = {
+			isa = PBXGroup;
+			children = (
+				5954934B2913482A0030C3B3 /* ChiqimKirim */,
+				5954934A2913482A0030C3B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5954934A2913482A0030C3B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				595493492913482A0030C3B3 /* ChiqimKirim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5954934B2913482A0030C3B3 /* ChiqimKirim */ = {
+			isa = PBXGroup;
+			children = (
+				595493632913567C0030C3B3 /* ViewModel */,
+				5954935B291354450030C3B3 /* View */,
+				5954935A2913543B0030C3B3 /* Model */,
+				5954934C2913482A0030C3B3 /* ChiqimKirimApp.swift */,
+				5954934E2913482A0030C3B3 /* ContentView.swift */,
+				595493502913482B0030C3B3 /* Assets.xcassets */,
+				5954935F291354AD0030C3B3 /* ALKATIP Kitab Tom.ttf */,
+				5954935E291354AD0030C3B3 /* ALKATIP Kitab.ttf */,
+				59549362291354BE0030C3B3 /* Info.plist */,
+				595493522913482B0030C3B3 /* Preview Content */,
+			);
+			path = ChiqimKirim;
+			sourceTree = "<group>";
+		};
+		595493522913482B0030C3B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				595493532913482B0030C3B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5954935A2913543B0030C3B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				59549367291356F00030C3B3 /* Expense.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5954935B291354450030C3B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5954935C291354910030C3B3 /* FontView.swift */,
+				59549364291356910030C3B3 /* Home.swift */,
+				5954936B29137AE80030C3B3 /* TransactionCardView.swift */,
+				5910440929138F28008E57B4 /* FilteredDetailView.swift */,
+				5910440B291395DD008E57B4 /* ExpenseCard.swift */,
+				59A9A4752914A7A000A4AFDF /* NewExpense.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		595493632913567C0030C3B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5954936929136B420030C3B3 /* ExpenseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		595493482913482A0030C3B3 /* ChiqimKirim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595493572913482B0030C3B3 /* Build configuration list for PBXNativeTarget "ChiqimKirim" */;
+			buildPhases = (
+				595493452913482A0030C3B3 /* Sources */,
+				595493462913482A0030C3B3 /* Frameworks */,
+				595493472913482A0030C3B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChiqimKirim;
+			productName = ChiqimKirim;
+			productReference = 595493492913482A0030C3B3 /* ChiqimKirim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		595493412913482A0030C3B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					595493482913482A0030C3B3 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 595493442913482A0030C3B3 /* Build configuration list for PBXProject "ChiqimKirim" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ug,
+			);
+			mainGroup = 595493402913482A0030C3B3;
+			productRefGroup = 5954934A2913482A0030C3B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				595493482913482A0030C3B3 /* ChiqimKirim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		595493472913482A0030C3B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59549360291354AD0030C3B3 /* ALKATIP Kitab.ttf in Resources */,
+				595493542913482B0030C3B3 /* Preview Assets.xcassets in Resources */,
+				59549361291354AD0030C3B3 /* ALKATIP Kitab Tom.ttf in Resources */,
+				595493512913482B0030C3B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		595493452913482A0030C3B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5910440A29138F28008E57B4 /* FilteredDetailView.swift in Sources */,
+				5954934F2913482A0030C3B3 /* ContentView.swift in Sources */,
+				5954936C29137AE80030C3B3 /* TransactionCardView.swift in Sources */,
+				5954936A29136B420030C3B3 /* ExpenseViewModel.swift in Sources */,
+				5954934D2913482A0030C3B3 /* ChiqimKirimApp.swift in Sources */,
+				59A9A4762914A7A000A4AFDF /* NewExpense.swift in Sources */,
+				59549365291356910030C3B3 /* Home.swift in Sources */,
+				5910440C291395DD008E57B4 /* ExpenseCard.swift in Sources */,
+				5954935D291354910030C3B3 /* FontView.swift in Sources */,
+				59549368291356F00030C3B3 /* Expense.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		595493552913482B0030C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		595493562913482B0030C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		595493582913482B0030C3B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChiqimKirim/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L3HP4P3TC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChiqimKirim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.ChiqimKirim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		595493592913482B0030C3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChiqimKirim/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L3HP4P3TC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChiqimKirim/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.ChiqimKirim;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		595493442913482A0030C3B3 /* Build configuration list for PBXProject "ChiqimKirim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595493552913482B0030C3B3 /* Debug */,
+				595493562913482B0030C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595493572913482B0030C3B3 /* Build configuration list for PBXNativeTarget "ChiqimKirim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				595493582913482B0030C3B3 /* Debug */,
+				595493592913482B0030C3B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 595493412913482A0030C3B3 /* Project object */;
+}
